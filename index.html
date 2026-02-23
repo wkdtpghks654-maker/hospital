@@ -2,7 +2,11 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+    <meta name="theme-color" content="#1a365d">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="format-detection" content="telephone=yes">
     <title>케어위드 | 순천·여수·광양 프리미엄 병원동행서비스</title>
     <meta name="description" content="순천, 여수, 광양 지역 부모님을 위한 프리미엄 병원동행서비스. 전문 매니저가 가족의 마음으로 동행합니다.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -583,7 +587,7 @@
         </div>
     </footer>
 
-    <!-- 플로팅 버튼 -->
+    <!-- 플로팅 버튼 (데스크탑) -->
     <div class="floating-btns">
         <a href="tel:0611234567" class="float-btn float-phone" aria-label="전화 상담">
             📞
@@ -592,6 +596,26 @@
             💬
         </a>
     </div>
+
+    <!-- 모바일 하단 고정 네비게이션 -->
+    <nav class="mobile-bottom-nav" id="mobileBottomNav">
+        <a href="tel:0611234567" class="bottom-nav-item">
+            <span class="bottom-nav-icon">📞</span>
+            <span class="bottom-nav-label">전화상담</span>
+        </a>
+        <a href="#" class="bottom-nav-item" id="kakaoBtn">
+            <span class="bottom-nav-icon">💬</span>
+            <span class="bottom-nav-label">카카오톡</span>
+        </a>
+        <a href="#contact" class="bottom-nav-item bottom-nav-cta">
+            <span class="bottom-nav-icon">📝</span>
+            <span class="bottom-nav-label">상담신청</span>
+        </a>
+        <a href="#services" class="bottom-nav-item">
+            <span class="bottom-nav-icon">💎</span>
+            <span class="bottom-nav-label">서비스</span>
+        </a>
+    </nav>
 
     <script src="script.js"></script>
 </body>
